@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+    <title>Unit Converter</title>
+<style>
+</style>
+<body style="background-image: linear-gradient(to bottom right, rgba(36, 193, 7, 0.98), rgba(28, 66, 21, 0.98)); width: 100vw; height: 100vh;">
+    <div class="navbar navbar-expand-m" style="display: flex; height: 100px;  background-color: black;">
+        <img src="https://manage.wix.com/_serverless/brand-maker/api/v1/design/b4272afa-ac00-45c8-89c3-d535fa973207/preview-redirect?preset=thumbnail"  style="display: flex; max-height: 80px; max-width: 80px; min-height: 50px; min-width: 50px;">
+    </div>
+        <div class="Unit-Converter" style="background-color: #000; border-radius: 10px; box-shadow: 0 0 30px #000; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 350px;">
+            <H1 style=" text-align: center; color: rgba(36, 193, 7, 0.98); margin-left: 10px; margin-right: 10px;" >UNIT CONVERTER</H1>
+                <input class="col" type="number" name="num1" id="num1" onkeyup="kg();" style="margin-left: 10px; margin-right: 20px; border: 3px inset rgba(36, 193, 7, 0.98); border-radius: 5px; background-color: rgba(98, 98, 98, .8); color: honeydew; margin-bottom: 10px; width: 250px; max-width: 300px;">
+                <label for="num1" style="color:rgba(36, 193, 7, 0.98);">Kg</label>
+                <br>
+                <input class="col" type="number" name="num2" id="num2" onkeyup="lb();" style="border: 3px inset rgba(36, 193, 7, 0.98); border-radius: 5px; background-color: rgba(98, 98, 98, .8); color: honeydew; margin-bottom: 10px; width: 250px; max-width: 300px; margin-left: 10px; margin-right: 20px;">
+                <label for="num2" style="color:rgba(36, 193, 7, 0.98);">Lb</label>
+                <input class="col" type="number" name="num3" id="num3" onkeyup="g();" style="margin-left: 10px; margin-right: 20px; border: 3px inset rgba(36, 193, 7, 0.98); border-radius: 5px; background-color: rgba(98, 98, 98, .8); color: honeydew; margin-bottom: 10px; width: 250px; max-width: 300px;">
+                <label for="num3" style="color:rgba(36, 193, 7, 0.98);">g</label>
+                <br>
+                <input class="col" type="number" name="num4" id="num4" onkeyup="t();" style="border: 3px inset rgba(36, 193, 7, 0.98); border-radius: 5px; background-color: rgba(98, 98, 98, .8); color: honeydew; margin-bottom: 10px; width: 250px; max-width: 300px; margin-left: 10px; margin-right: 20px;">
+                <label for="num4" style="color:rgba(36, 193, 7, 0.98);">t</label>
+        </div>
+    <div class="container" style="margin-top: 780px;">
+        <center >© 2023 Jhon Michael Babadilla</center>
+    </div>
+    <script src="index.js"></script>               
+</body>
+</html>
+<!--  -->
